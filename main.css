@@ -60,7 +60,7 @@
     }
 
     .articles article a{
-        background-color: brown;
+        background-color: brown;      
         color: floralwhite;
         padding: 8px;
         display: inline-block;
@@ -68,6 +68,8 @@
         font-weight: 300;
         margin-top: 5px;
     }
+
+
 
     .articles article a:hover {
         text-decoration:underline;
@@ -88,16 +90,36 @@
 
     #sports{
         background-color: rgba(0,700, 2, 0.3);
+
+    }
+
+    #sports .articles article a{
+        background-color: rgba(0,220,123,012);
+
     }
 
     #saúde{
         background-color: rgba(248, 151, 151, 0.3);
     }
 
+    #saúde .articles article a{
+        background-color: rgba(0,0,23,012);
+
+    }
+
     #Entretenimento{
         background-color: rgb(219, 175, 29);
+    }
+    #Entretenimento .articles article a{
+        background-color: rgba(0,80,123,012);
+
     }
 
     #economy{
         background-color: rgb(147, 131, 236);
+        
     }
+
+    
+
+ 
